@@ -1,0 +1,3 @@
+output: doc/api
+exclude: ["test/**"]
+include: ["lib/**/*.dart"]
