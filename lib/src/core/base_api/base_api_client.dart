@@ -5,8 +5,22 @@ import 'package:dio/dio.dart';
 import 'package:samim_practice/src/core/constants/app_constants.dart';
 import 'api_exception.dart';
 
-
-
+/// This is the basic class to communicate with the server.
+///
+/// {@tool snippet}
+///
+/// This example shows how to use this class
+///
+/// ```dart
+/// BaseApiClient().get(baseUrl: 'https://example.com', api: '/some-list'):
+/// ```
+///
+/// {@end-tool}
+///
+/// ## See also:
+///
+///  * [http] dart package
+///  * [Dio] external library
 class BaseApiClient {
 
   /// Takes the required parameters [baseUrl], [api]

@@ -48,9 +48,9 @@ class MyApp extends StatelessWidget {
       ),
       home: const LoginScreen(),
       routes: {
-        DartzPractice.routeName: (context) => const DartzPractice(),
         HomeScreen.routeName: (context) => const HomeScreen(),
         LoginScreen.routeName: (context) => const LoginScreen(),
+        DartzPractice.routeName: (context) => const DartzPractice(),
       },
     );
   }

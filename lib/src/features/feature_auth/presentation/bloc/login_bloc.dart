@@ -35,13 +35,9 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
           }
         },
 
-        phoneNumberUnfocused: () async {
+        phoneNumberUnfocused: () async {},
 
-        },
-
-        nationalCodeUnfocused: () async {
-
-        },
+        nationalCodeUnfocused: () async {},
 
         formSubmitted: (String phoneNumber, String nationalCode) async {
           emit(const _LoginLoadingState());
